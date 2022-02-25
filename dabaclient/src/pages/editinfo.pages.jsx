@@ -7,11 +7,11 @@ export const EditInfo = () => {
     const {isloading,data} = useQuery(FETCH_USER_QUERY);
     
         const [values,setValues] = useState({
-            name:data.getUser.name,
-            email:data.getUser.email,
+            name:'',
+            email:'',
             password:'',
-            phone:data.getUser.phone,
-            bio:data.getUser.bio
+            phone:'',
+            bio:''
         });
     
     
